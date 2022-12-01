@@ -25,10 +25,10 @@ Bu projede, NASA günün fotoğrafını göstermek için bir uygulama geliştire
 
 Bu proje, create-react-app (CRA) kullanılarak bir araya getirildi. Bu projenin çalışması için CRA'yı kurmanız gerekmeyecek. Projeyi uygun bağımlılıklarla kurmak için aşağıdaki adımları izleyin.
 
-- [ ] Projeyi forklayarak bir kopyasını oluşturun.
-- [ ] Terminalden klonlayın
-- [ ] `npm install` proje bağımlılıklarını indirin
-- [ ] `npm start` komutuyla çalıştırın
+- [x] Projeyi forklayarak bir kopyasını oluşturun.
+- [x] Terminalden klonlayın
+- [x] `npm install` proje bağımlılıklarını indirin
+- [x] `npm start` komutuyla çalıştırın
 - [ ] Push commits: `git push origin main`.
 
 ### Görev 2: MUÜ
