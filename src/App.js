@@ -1,8 +1,7 @@
 import React, {useState,useEffect} from "react";
 import "./App.css";
 
-function Nasa(props){
-  const {id}=props;
+function nasaFetcher(id) {
   const [nasa, setNasa] = useState({});
   useEffect(() => {
     fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2012-03-${id}`)
@@ -11,6 +10,12 @@ function Nasa(props){
         setNasa(res);
       });
   }, [id]);
+  return nasa
+}
+
+function Nasa(props){
+  const {id}=props;
+  let nasa=nasaFetcher(id);
   console.log(nasa);
   return (
     <div>
