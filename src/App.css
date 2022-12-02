@@ -1,10 +1,54 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+html,body{
+  min-height: 100vh;
+}
+.content{
+  max-width: 800px;
+  width: 90%;
+}
+
+h1,h2{
+  text-align: center;
+  color:black;
+}
+.photoImg img{
+  width: 100%;
+  border-radius: 5%;
+  border: 2px solid red;
+}
+
+.buttons .selected{
+  color:red;
+  background-color: black;
+  border: 5px solid yellow;
+
+}
+
+.buttons{
+  padding: 1em 0;
+  display: flex;
+  justify-content: center
+}
+
+.buttons button{
+  border: 5px solid green;
+  background-color: wheat;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 10px 15px;
+  margin-right: 40px;
+  margin-left:40px;
+  color:red;
+  cursor:pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {
